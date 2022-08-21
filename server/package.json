@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "generate-password": "^1.7.0",
+    "md5": "^2.3.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.2",
+    "npm-package-arg": "^9.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

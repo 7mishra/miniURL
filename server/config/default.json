@@ -1,0 +1,10 @@
+{
+  "minURL": {
+    "dbConfig": {
+      "host": "localhost",
+      "port": 8000,
+      "dbName": "7mishra",
+      "dbURL": "mongodb+srv://7mishra:sapt2001@minurl.ucd5cys.mongodb.net/?retryWrites=true&w=majority"
+    }
+  }
+}

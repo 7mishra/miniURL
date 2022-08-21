@@ -1,0 +1,106 @@
+.urlWrapper{
+    height: 100%;
+    width:100%;
+    border-radius: 16px;
+    padding: 80px;
+}
+.url{
+    height: 100%;
+    width:100%;
+    border-radius: 16px;
+    background: rgba(25, 39, 52, 0.10);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(25, 39, 52, 0.73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.minUrlHeader{
+    font-size: 30px;
+    font-family: 'Offside',cursive;
+    color: #ffffff;
+}
+.urlLink,.minUrlLink,.minimizeLinkBtn{
+    width: 90%;
+    margin-left: 5%;
+    height: 100px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+}
+.field{
+    /*border: 1px solid rgba(63, 78, 79, 0.29);*/
+    width: 100%;
+    border-radius: 16px;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+}
+.tag{
+    flex: 0.5;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tag span{
+    font-size: 30px;
+    color: #8899a6;
+    font-family: 'Abel', sans-serif;
+
+}
+.link{
+    flex: 1.5;
+    height: 100%;
+}
+.link input::placeholder{
+    color: #8899a6;
+}
+.link input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 20px 10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(63, 78, 79, 0.29);
+    background: rgba(63, 51, 81, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    /*font-family: 'Offside', cursive;*/
+}
+.submitLinkBtn button{
+
+    height:60px;
+    width: 200px;
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    outline: none;
+    border: 1px solid rgba(63, 78, 79, 0.29);
+    background-color: transparent;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+.linkbtn:hover{
+    background: rgba(63, 51, 81, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    color: aquamarine;
+}
+.submitLinkBtn{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

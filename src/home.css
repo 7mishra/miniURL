@@ -1,0 +1,52 @@
+.HomeApp{
+    height: 100vh;
+    width:100vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+}
+.displayWrapper{
+    height: 100%;
+    width:100vw;
+}
+.display{
+    height: 100%;
+    width:100%;
+    display: flex;
+    padding: 20px;
+}
+.container{
+    flex: 0.7;
+    height: 100%;
+    padding: 20px;
+}
+.con{
+    height: 100%;
+    width:100%;
+}
+.App[arrow-click="1"] {
+    animation: 1s scrollHorizontal ease-in ;
+    animation-fill-mode: forwards;
+}
+.App[arrow-click="0"] {
+    animation: 1s scrollHorizontalopp ease-in ;
+}
+@keyframes scrollHorizontalopp {
+    from{
+        transform: translateX(-100vw);
+    }
+    to{
+        transform: translateX(0vw);
+    }
+
+}
+@keyframes scrollHorizontal {
+    from{
+        transform: translateX(0vw);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+
+}
